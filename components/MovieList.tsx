@@ -20,8 +20,7 @@ const MovieList : React.FC<MovieListProps>=({data,title})=>{
                 {data.map((movie)=>(
                     <MovieCard key={movie.id} data={movie}/>
                 ))}
-            </div>
-            movieList
+            </div> 
         </div>
     );
 }
