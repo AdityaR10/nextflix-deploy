@@ -22,6 +22,7 @@
             await signIn('credentials',{
                 email,
                 password, 
+                redirect:true,
                 callbackUrl:'/profiles',
             });
  
